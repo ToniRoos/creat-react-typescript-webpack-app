@@ -9,7 +9,7 @@
     "local": "node server.js localhost 8002",
     "server": "node server.js your server"
   },
-  "author": "TGIS",
+  "author": "Toni Roos",
   "license": "ISC",
   "devDependencies": {
     "@babel/core": "^7.13.8",

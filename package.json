@@ -21,7 +21,7 @@
         "webpack",
         "bootstrap"
     ],
-    "author": "",
+    "author": "Toni Roos",
     "license": "MIT",
     "dependencies": {
         "fs-extra": "^10.0.0"
