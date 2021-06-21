@@ -1,0 +1,30 @@
+{
+    "name": "react-ui-template",
+    "version": "1.0.0",
+    "description": "UI template for web applications using react, typescript and webpack",
+    "main": "./index.js",
+    "files": [
+        "**"
+    ],
+    "bin": "./index.js",
+    "scripts": {
+        "start": "cd template && npm run start",
+        "build": "cd template && npm run build",
+        "local": "cd template && npm run local",
+        "server": "cd template && npm run server"
+    },
+    "keywords": [
+        "react",
+        "ui",
+        "js",
+        "typescript",
+        "webpack",
+        "bootstrap"
+    ],
+    "author": "",
+    "license": "MIT",
+    "dependencies": {
+        "fs-extra": "^10.0.0"
+    },
+    "devDependencies": {}
+}
