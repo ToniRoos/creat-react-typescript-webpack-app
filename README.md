@@ -10,7 +10,7 @@ Easy to use template for creating new apps based on:
  # Install
 
 ```sh
-npx i https://github.com/ToniRoos/creat-react-typescript-webpack-app.git
+npx git+https://github.com/ToniRoos/creat-react-typescript-webpack-app.git
 ```
 
 # Usage of template

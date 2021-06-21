@@ -5,6 +5,7 @@
 logHeader("create react ui template");
 
 const fs = require('fs-extra');
+var path = require('path');
 
 const filterFunc = (src, dest) => {
 
@@ -14,7 +15,7 @@ const filterFunc = (src, dest) => {
 
 logHeader("Start copying all files from template");
 
-fs.copy(__dirname + "\\template", ".\\", { filter: filterFunc }, function (err) {
+fs.copy(path.join(__dirname, "template"), path.normalize(".\\"), { filter: filterFunc }, function (err) {
 
     if (err) {
 
